@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sportnest",
+    "title": "SportNest",
+    "description": "A comprehensive sports complex management platform for booking, member management, and resource scheduling. Designed as a modern full-stack web application.",
+    "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800&auto=format&fit=crop",
+    "tags": ["Next.js", "MongoDB", "Mongoose", "Tailwind CSS"],
+    "link": "https://sportnest-umber.vercel.app",
+    "github": "https://github.com/jahidhasan-devs/SportNest-Project",
+    "role": "Full Stack Developer (Lead)",
+    "year": "2026",
+    "fullDescription": "SportNest is a specialized platform that simplifies the operation of sports facilities, complexes, and clubs. It offers an integrated solution for online facility booking (courts, fields), membership subscription management, staff scheduling, and robust reporting. Built with Next.js for SEO and MongoDB for flexible data storage, it provides an intuitive interface for both staff and customers."
+  },
+  {
+    "id": "dev-flow",
+    "title": "DevFlow Community",
+    "description": "A developer Q&A and knowledge-sharing platform featuring real-time voting, badge rewards, and AI-powered answer suggestions.",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
+    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
+    "link": "https://sportnest-umber.vercel.app",
+   "github": "https://github.com/jahidhasan-devs/SportNest-Project",
+    "role": "Full Stack Developer",
+    "year": "2026",
+    "fullDescription": "DevFlow is a full-stack community platform built for software developers to ask questions, share knowledge, and collaborate. Features include a powerful search filter, tag management, user reputation systems, and integration with OpenAI APIs to summarize long threads and draft suggested responses."
+  },
+  {
+    "id": "quick-mart",
+    "title": "QuickMart E-Commerce",
+    "description": "A feature-rich e-commerce store with dynamic cart management, Stripe checkout integration, and an interactive admin dashboard.",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop",
+    "tags": ["React", "Express.js", "Node.js", "MongoDB"],
+    "link": "https://sportnest-umber.vercel.app",
+    "github": "https://github.com/jahidhasan-devs/SportNest-Project",
+    "role": "MERN Stack Developer",
+    "year": "2026",
+    "fullDescription": "QuickMart is a modern online store built to deliver a seamless shopping experience. It features real-time inventory tracking, secure authentication via Firebase/JWT, dynamic coupon application, and a dedicated admin portal to manage products, categories, and order fulfillment status."
+  },
+  {
+    "id": "task-craft",
+    "title": "TaskCraft Productivity App",
+    "description": "A sleek Kanban-style team project management web application with real-time updates and task status tracking.",
+    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=800&auto=format&fit=crop",
+    "tags": ["React", "Redux Toolkit", "Tailwind CSS", "Firebase"],
+    "link": "https://sportnest-umber.vercel.app",
+    "github": "https://github.com/jahidhasan-devs/SportNest-Project",
+    "role": "Frontend Developer",
+    "year": "2026",
+    "fullDescription": "TaskCraft helps distributed teams organize their workflow efficiently. Built with React and Redux Toolkit for complex state management, it offers drag-and-drop board layouts, milestone tracking, deadline reminders, and real-time collaboration widgets powered by Firebase WebSockets."
+  },
+  {
+    "id": "edu-nest",
+    "title": "EduNest Learning Portal",
+    "description": "An interactive Learning Management System (LMS) providing video course streaming, student assignment submission, and quiz grading.",
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop",
+    "tags": ["Next.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
+    "link": "https://sportnest-umber.vercel.app",
+    "github": "https://github.com/jahidhasan-devs/SportNest-Project",
+    "role": "Full Stack Developer",
+    "year": "2025",
+    "fullDescription": "EduNest simplifies online education for students and instructors alike. Instructors can publish video courses, create automated quizzes, and track enrollment stats, while students benefit from progress bars, bookmarking lessons, and downloadable certificates upon course completion."
+  },
+  {
+    "id": "pixel-craft",
+    "title": "PixelCraft Portfolio Suite",
+    "description": "A highly aesthetic and minimalist personal developer portfolio built with fluid animations and responsive layout architecture.",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=800&auto=format&fit=crop",
+    "tags": ["Next.js", "Framer Motion", "GSAP", "Tailwind CSS"],
+    "link": "https://sportnest-umber.vercel.app",
+    "github": "https://github.com/jahidhasan-devs/SportNest-Project",
+    "role": "Frontend Developer & UI Designer",
+    "year": "2025",
+    "fullDescription": "PixelCraft is an interactive portfolio showcasing technical projects and skills through modern micro-interactions and smooth page transitions. Designed with an emphasis on performance and accessible web design, it features dark mode aesthetics, dynamic project filtering, and interactive contact modules."
+  }
+]
