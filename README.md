@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Jahid Hasan - Personal Portfolio Website
 
-## Getting Started
+[Live Demo](https://jahid-portfolio-bay.vercel.app)
+[![GitHub Repository](https://img.shields.io/badge/GitHub_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username/your-repo-name)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
-First, run the development server:
+A modern, fast, and fully responsive personal portfolio website built with **Next.js**, **Tailwind CSS**, and **Framer Motion**. It highlights my journey, featured web projects, technical skill set, and contact options.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔗 Quick Links
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+* **🌐 Live Preview:** [portfolio](https://jahid-portfolio-bay.vercel.app)
+* **💻 GitHub Repository:** [github](https://github.com/jahidhasan-devs/My-Portfolio)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Project Screenshot
 
-To learn more about Next.js, take a look at the following resources:
+<p align="center">
+  <img src="./screenshorts/home.png" alt="Jahid Hasan Portfolio Screenshot" width="100%" />
+</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> 💡 *Note: Place your screenshot inside an `assets` folder named `preview.png` or drag & drop the image directly into the GitHub README editor to auto-generate a link.*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* 💎 **Glassmorphism UI:** Modern dark theme design with emerald accents.
+* 📱 **Fully Responsive:** Smooth layout transitions optimized for Mobile, Tablet, and Desktop.
+* ⚡ **Interactive Animations:** Micro-interactions and smooth component entrances using **Framer Motion**.
+* 📄 **In-App CV Modal Viewer:** Live PDF viewing window with direct download access.
+* 📬 **Contact Section:** Direct connections to social networks and interactive touchpoints.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js, Next.js (App Router)
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
+* **Icons:** Lucide React / React Icons
+* **Deployment:** Vercel
+
+---
+
+## 📂 Directory Structure
+
+```text
+├── public/              # Static assets (CV PDF, icons, public images)
+├── src/
+│   ├── app/             # Next.js App Router structure
+│   ├── components/      # UI Components (Navbar, Hero, Projects, Skills, Modal)
+│   └── styles/          # Global CSS & Tailwind styles
+├── package.json
+└── README.md
