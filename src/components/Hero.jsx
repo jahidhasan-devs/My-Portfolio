@@ -99,13 +99,13 @@ const Hero = () => {
   return (
     <section
       ref={heroRef}
-      className="relative min-h-screen overflow-hidden bg-[#030811] pt-28 text-white md:pt-32"
+      className="relative min-h-screen w-full max-w-full overflow-hidden bg-[#030811] pt-28 text-white md:pt-32"
     >
       {/* BACKGROUND */}
-      <div className="pointer-events-none absolute inset-0">
+      <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(rgba(100,116,139,0.07)_1px,transparent_1px),linear-gradient(90deg,rgba(100,116,139,0.07)_1px,transparent_1px)] bg-[size:32px_32px] opacity-[0.32]" />
-        <div className="absolute -left-60 top-20 h-[500px] w-[500px] rounded-full bg-emerald-500/10 blur-[120px]" />
-        <div className="absolute -right-60 top-40 h-[500px] w-[500px] rounded-full bg-cyan-500/10 blur-[120px]" />
+        <div className="absolute -left-60 top-20 h-[300px] w-[300px] rounded-full bg-emerald-500/10 blur-[100px] sm:h-[500px] sm:w-[500px] sm:blur-[120px]" />
+        <div className="absolute -right-60 top-40 h-[300px] w-[300px] rounded-full bg-cyan-500/10 blur-[100px] sm:h-[500px] sm:w-[500px] sm:blur-[120px]" />
         <div className="floating-dot absolute right-[18%] top-[22%] h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_25px_rgba(52,211,153,0.9)]" />
         <div className="absolute left-[18%] top-[35%] h-1.5 w-1.5 rounded-full bg-cyan-400 shadow-[0_0_20px_rgba(34,211,238,0.8)]" />
       </div>
@@ -134,7 +134,7 @@ const Hero = () => {
             </div>
 
             {/* Heading */}
-            <h1 className="mt-7 text-5xl font-black leading-[0.98] tracking-[-0.045em] sm:text-6xl md:text-7xl lg:text-[76px]">
+            <h1 className="mt-7 text-4xl font-black leading-[0.98] tracking-[-0.045em] sm:text-6xl md:text-7xl lg:text-[76px]">
               <div className="overflow-hidden">
                 <div className="hero-reveal">Hi, I&apos;m</div>
               </div>
@@ -234,17 +234,17 @@ const Hero = () => {
           </div>
 
           {/* RIGHT PORTRAIT */}
-          <div className="relative flex min-h-[540px] items-end justify-center lg:justify-end">
-            <div className="hero-glow absolute bottom-10 left-1/2 h-[360px] w-[360px] -translate-x-1/2 rounded-full bg-emerald-400/10 blur-[110px]" />
-            <div className="absolute bottom-14 left-1/2 h-[250px] w-[250px] -translate-x-1/2 rounded-full bg-cyan-400/10 blur-[90px]" />
-            <div className="absolute bottom-0 left-1/2 h-[390px] w-[390px] -translate-x-1/2 rounded-full border border-emerald-400/10 bg-gradient-to-b from-emerald-400/[0.04] to-transparent" />
-            <div className="hero-ring absolute bottom-[-15px] left-1/2 h-[440px] w-[440px] -translate-x-1/2 rounded-full border border-dashed border-emerald-400/[0.07]" />
+          <div className="relative flex min-h-[350px] w-full items-end justify-center overflow-hidden sm:min-h-[450px] lg:justify-end">
+            <div className="hero-glow absolute bottom-6 left-1/2 h-[220px] w-[220px] -translate-x-1/2 rounded-full bg-emerald-400/10 blur-[80px] sm:h-[320px] sm:w-[320px] sm:blur-[110px]" />
+            <div className="absolute bottom-10 left-1/2 h-[180px] w-[180px] -translate-x-1/2 rounded-full bg-cyan-400/10 blur-[70px] sm:h-[250px] sm:w-[250px] sm:blur-[90px]" />
+            <div className="absolute bottom-0 left-1/2 h-[280px] w-[280px] -translate-x-1/2 rounded-full border border-emerald-400/10 bg-gradient-to-b from-emerald-400/[0.04] to-transparent sm:h-[390px] sm:w-[390px]" />
+            <div className="hero-ring absolute bottom-[-15px] left-1/2 h-[300px] w-[300px] -translate-x-1/2 rounded-full border border-dashed border-emerald-400/[0.07] sm:h-[440px] sm:w-[440px]" />
 
             <motion.div
               initial={{ opacity: 0, y: 40, scale: 0.94 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ duration: 0.9, delay: 0.35, ease: "easeOut" }}
-              className="relative z-10 flex w-[440px] items-end justify-center md:w-[500px]"
+              className="relative z-10 flex w-full max-w-[280px] items-end justify-center sm:max-w-[380px] md:max-w-[440px] lg:max-w-[500px]"
             >
               <Image
                 src="/images/circle.png"
@@ -252,7 +252,7 @@ const Hero = () => {
                 width={566}
                 height={440}
                 priority
-                className="h-auto w-[112%] max-w-none object-contain object-bottom drop-shadow-[0_25px_35px_rgba(0,0,0,0.45)] transition-transform duration-700 hover:scale-[1.025]"
+                className="h-auto w-full max-w-full object-contain object-bottom drop-shadow-[0_25px_35px_rgba(0,0,0,0.45)] transition-transform duration-700 hover:scale-[1.025]"
               />
             </motion.div>
 
@@ -260,10 +260,10 @@ const Hero = () => {
               initial={{ opacity: 0, y: -15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.9 }}
-              className="absolute right-0 top-16 z-20 flex items-center gap-2 rounded-xl border border-cyan-400/20 bg-[#07121f]/85 px-4 py-3 shadow-[0_10px_30px_rgba(0,0,0,0.25)] backdrop-blur-xl md:right-2"
+              className="absolute right-2 top-4 z-20 flex items-center gap-2 rounded-xl border border-cyan-400/20 bg-[#07121f]/85 px-3 py-2 shadow-[0_10px_30px_rgba(0,0,0,0.25)] backdrop-blur-xl sm:right-4 sm:top-16 sm:px-4 sm:py-3"
             >
               <span className="h-2 w-2 animate-pulse rounded-full bg-cyan-400 shadow-[0_0_12px_rgba(34,211,238,0.9)]" />
-              <span className="text-[10px] font-black tracking-[0.15em] text-slate-300">
+              <span className="text-[9px] font-black tracking-[0.15em] text-slate-300 sm:text-[10px]">
                 AVAILABLE
               </span>
             </motion.div>

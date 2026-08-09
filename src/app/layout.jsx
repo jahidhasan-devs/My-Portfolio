@@ -19,7 +19,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="dark scroll-smooth" data-theme="dark">
+    <html
+      lang="en"
+      className="dark scroll-smooth overflow-x-hidden"
+      data-theme="dark"
+    >
       <head>
         <link
           rel="stylesheet"
@@ -27,10 +31,12 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body
-        className={`${spaceGrotesk.variable} ${manrope.variable} antialiased selection:bg-primary selection:text-black`}
+        className={`${spaceGrotesk.variable} ${manrope.variable} antialiased selection:bg-primary selection:text-black relative w-full max-w-full overflow-x-hidden`}
       >
         <SmoothScroll>
-          {children}
+          <div className="relative w-full max-w-full overflow-x-hidden">
+            {children}
+          </div>
         </SmoothScroll>
       </body>
     </html>
