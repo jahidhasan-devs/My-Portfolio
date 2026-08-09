@@ -8,15 +8,15 @@ const Footer = () => {
   const socials = [
     {
       name: "GitHub",
-      href: "https://github.com/Aswincloud",
+      href: "https://github.com/jahidhasan-devs",
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/",
+      href: "https://www.linkedin.com/in/md-jahid-hasan-306700292",
     },
     {
       name: "Facebook",
-      href: "https://www.facebook.com/",
+      href: "https://www.facebook.com/jahid.hasan.551668",
     },
   ];
 
