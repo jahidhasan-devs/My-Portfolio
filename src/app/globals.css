@@ -4,10 +4,10 @@
 
 
 /* hero-reveal এলিমেন্টগুলোকে ডিফল্টভাবে ভিজিবল রাখার জন্য */
-/* .hero-reveal {
+.hero-reveal {
   opacity: 1 !important;
   visibility: visible !important;
-} */
+}
 
 
 
