@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -21,13 +21,39 @@ const Navbar = () => {
     { name: "Contact", href: "/#contact" },
   ];
 
+  // Close menus on Escape key press and prevent scrolling when modal is open
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") {
+        setIsOpen(false);
+        setIsCvOpen(false);
+      }
+    };
+
+    if (isOpen || isCvOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+      document.body.style.overflow = "unset";
+    };
+  }, [isOpen, isCvOpen]);
+
   return (
     <>
       <nav className="fixed top-0 left-0 w-full z-50 border-b border-white/[0.08] bg-[#030811]/80 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-5 md:px-8">
           <div className="h-[78px] flex items-center justify-between">
             {/* ================= LOGO ================= */}
-            <Link href="/" className="group flex items-center gap-3">
+            <Link
+              href="/"
+              onClick={() => setIsOpen(false)}
+              className="group flex items-center gap-3"
+            >
               {/* Terminal Logo */}
               <motion.div
                 whileHover={{ rotate: -4, scale: 1.05 }}
@@ -293,8 +319,20 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* ================= MOBILE MENU ================= */}
+      {/* ================= MOBILE MENU BACKDROP ================= */}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsOpen(false)}
+            className="fixed inset-0 z-30 bg-black/60 backdrop-blur-sm lg:hidden"
+          />
+        )}
+      </AnimatePresence>
 
+      {/* ================= MOBILE MENU ================= */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
