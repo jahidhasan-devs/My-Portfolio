@@ -12,9 +12,9 @@ const Hero = () => {
 
   // CV Links
   const cvViewLink =
-    "https://drive.google.com/file/d/1ND7eRXVOv0TngezGneN9ofd0AknNP4Mm/view?usp=sharing";
+    "https://drive.google.com/file/d/1tITB9kh-8BHDKae9eO0h2EFMdy8YRj1R/preview";
   const cvDownloadLink =
-    "https://drive.google.com/uc?export=download&id=1ND7eRXVOv0TngezGneN9ofd0AknNP4Mm";
+    "https://drive.google.com/uc?export=download&id=1tITB9kh-8BHDKae9eO0h2EFMdy8YRj1R";
 
   const socialLinks = [
     {
@@ -200,7 +200,7 @@ const Hero = () => {
                 onClick={() => setShowCvModal(true)}
                 whileHover={{ scale: 1.04, y: -2 }}
                 whileTap={{ scale: 0.96 }}
-                className="inline-flex items-center gap-3 rounded-xl border border-white/10 bg-white/[0.04] px-7 py-3.5 text-sm font-black text-white transition-all hover:border-emerald-400/30 hover:bg-emerald-400/[0.06]"
+                className="cursor-pointer inline-flex items-center gap-3 rounded-xl border border-white/10 bg-white/[0.04] px-7 py-3.5 text-sm font-black text-white transition-all hover:border-emerald-400/30 hover:bg-emerald-400/[0.06]"
               >
                 <span>Download CV</span>
                 <span className="text-emerald-400">↓</span>

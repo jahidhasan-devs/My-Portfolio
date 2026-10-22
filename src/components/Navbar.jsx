@@ -8,10 +8,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isCvOpen, setIsCvOpen] = useState(false);
 
-  const driveViewUrl =
-    "https://drive.google.com/file/d/1ND7eRXVOv0TngezGneN9ofd0AknNP4Mm/preview";
-  const driveDownloadUrl =
-    "https://drive.google.com/uc?export=download&id=1ND7eRXVOv0TngezGneN9ofd0AknNP4Mm";
+ const driveViewUrl =
+   "https://drive.google.com/file/d/1tITB9kh-8BHDKae9eO0h2EFMdy8YRj1R/preview";
+const driveDownloadUrl =
+  "https://drive.google.com/uc?export=download&id=1tITB9kh-8BHDKae9eO0h2EFMdy8YRj1R";
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -210,6 +210,7 @@ const Navbar = () => {
                   scale: 0.96,
                 }}
                 className="
+                cursor-pointer
                   group
                   relative
                   hidden sm:flex
@@ -431,6 +432,7 @@ const Navbar = () => {
                   setIsCvOpen(true);
                 }}
                 className="
+                cursor-pointer
                   mt-2
                   flex items-center justify-center
                   gap-2
@@ -526,6 +528,7 @@ const Navbar = () => {
                   <button
                     onClick={() => setIsCvOpen(false)}
                     className="
+                    cursor-pointer
                       w-8 h-8 rounded-lg bg-white/5 border border-white/10 text-slate-400
                       hover:text-white hover:bg-white/10 transition-colors flex items-center justify-center shrink-0
                     "
