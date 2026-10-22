@@ -1,12 +1,12 @@
 [
   {
-    "id": "sportnest",
-    "title": "SportNest",
-    "description": "A comprehensive sports complex management platform for booking, member management, and resource scheduling. Designed as a modern full-stack web application.",
-    "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800&auto=format&fit=crop",
-    "tags": ["Next.js", "MongoDB", "Mongoose", "Tailwind CSS"],
-    "link": "https://sportnest-umber.vercel.app",
-    "github": "https://github.com/jahidhasan-devs/SportNest-Project",
+    "id": "TicketBari",
+    "title": "TicketBari",
+    "description": "TicketBari is a modern and responsive online ticket booking platform that allows users to explore available tickets, book their preferred journeys, and manage their bookings through a user-friendly interface. The platform includes secure authentication, role-based dashboards, booking management, and online payments. Sellers can add and manage tickets, while administrators can manage users, review tickets, and control platform activities.",
+    "image": "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=800&q=80",
+    "tags": ["Next.js", "MongoDB","Stribe", "Mongoose", "Tailwind CSS"],
+    "link": "https://ticket-bari-client-black.vercel.app",
+    "github": "https://github.com/jahidhasan-devs/Online-Ticket-Booking-Platform-Client",
     "role": "Full Stack Developer (Lead)",
     "year": "2026",
     "fullDescription": "SportNest is a specialized platform that simplifies the operation of sports facilities, complexes, and clubs. It offers an integrated solution for online facility booking (courts, fields), membership subscription management, staff scheduling, and robust reporting. Built with Next.js for SEO and MongoDB for flexible data storage, it provides an intuitive interface for both staff and customers."
