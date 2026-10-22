@@ -12,10 +12,10 @@
     "fullDescription": "SportNest is a specialized platform that simplifies the operation of sports facilities, complexes, and clubs. It offers an integrated solution for online facility booking (courts, fields), membership subscription management, staff scheduling, and robust reporting. Built with Next.js for SEO and MongoDB for flexible data storage, it provides an intuitive interface for both staff and customers."
   },
   {
-    "id": "dev-flow",
-    "title": "DevFlow Community",
-    "description": "A developer Q&A and knowledge-sharing platform featuring real-time voting, badge rewards, and AI-powered answer suggestions.",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
+    "id": "SportNest ",
+    "title": "SportNest ",
+    "description": "SportNest is a modern and responsive sports facility booking platform that allows users to explore sports facilities, book available time slots, and manage their bookings with a secure authentication system. Facility owners can add, update, and manage their own facilities through a user-friendly dashboard.",
+    "image": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80",
     "tags": ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
     "link": "https://sportnest-umber.vercel.app",
    "github": "https://github.com/jahidhasan-devs/SportNest-Project",
